@@ -18,10 +18,10 @@ app.use(cors());
 //   })
 // );
 
-app.get("/", (request, response) => {
-  console.log(request);
-  return response.status(234).send("welcome to MERN project");
-});
+// app.get("/", (request, response) => {
+//   console.log(request);
+//   return response.status(234).send("welcome to MERN project");
+// });
 
 app.use("/books", bookRoutes);
 
